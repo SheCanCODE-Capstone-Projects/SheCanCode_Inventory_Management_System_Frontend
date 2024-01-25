@@ -25,7 +25,7 @@
 .logo
 {
     text-align: center;
-    padding: 20px 50px;
+    padding: 20px 0px;
     color: black;
     align-items: center;
     display: flex;
@@ -38,8 +38,8 @@ background-color: red;
 }
 .logo-icon
 {
-   width: 75px;
-   height: 75px;
+   width: 70px;
+   height: 50px;
   
 }
 .menu--list
@@ -47,25 +47,29 @@ background-color: red;
     display: flex;
     flex-direction: column;
     gap:30px;
+    
 }
 .menu--list .item
 {
     display: flex;
     align-items: center;
     gap: 30px;
-    font-size: 1.1rem;
+    font-size: 0.95rem;
     text-decoration: none;
     font-weight: 200;
     padding: 10px;
     border-radius: 10px;
     transition: 0.3s ease-in-out;
     color: #abcde2;
+    width: 150%;
+  
 }
-.menu--list .item:hover,
-.active
+.menu--list .item:hover
 {
     background-color: #abcde2;
     color: rgb(5, 5, 62) ! important;
+   
+ 
 }
 
 
@@ -76,28 +80,32 @@ background-color: red;
     display: flex;
     gap: 80px;
 }
+.absolute 
+{
+    color: #091f54;
+}
 .dashboard-content
 {
-    background-color: white;
+    background-color: rgb(233, 238, 242);
     flex: 1;
-    border-radius: 20px;
-    padding: 2rem;
+    padding: 0rem;
     display: flex;
     gap: 1.5rem;
+    height: 100vh;
     justify-content: space-between;
+    margin-top: 0%;
+   
 }
-
-
-
-
 .content{
-    width: 75%;
+    width: 100%;
+ 
 }
 .content--header
 {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
 }
 .header--title
 {
@@ -109,20 +117,29 @@ background-color: red;
 .card-container
 {
     display: flex;
-    gap: 20px;
+    gap: 30%;
     align-items: center;
-    margin-top: 2rem;
+
+
+ 
+    
 }
+
+
 .card{
     flex:1;
-    background: #dde6ed;
-    padding: 20px;
-    border-radius: 10px;
+   
+    padding: 50px 30px;
+
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 20px;
     transition: 0.5s ease-in-out;
+    background-color: #1f3373;
+    margin: 40px 0px 40px 20px;
+    
+  
 }
 .card:hover
 {
@@ -131,25 +148,23 @@ background-color: red;
 }
 .card--cover
 {
-    background-color: #fff;
-    font-size: 3rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border-radius: 20px;
+    background-color: transparent;
+    font-size: 1.5rem;
+ 
+
     color: #969393;
 
 }
 .card--title
 {
-    background: #ffffffc0;
+   
     width: 100%;
     text-align: center;
     padding: 10px 0;
     font-size: 14px;
-    color: #526d82;
+    color: #141415;
     border: 10px;
+    margin-right: 60%;
 }
 .list-header
 {
@@ -197,10 +212,7 @@ background-color: red;
   
 }
 
-.profile
-{
-    flex: 1;
-}
+
 
 .user-detail
 {
@@ -242,10 +254,22 @@ background-color: red;
     gap: 10px;
 
 }
+.input-dash
+{
+    background-color: white;
+    border:2px solid grey;
+    border-right: none;
+}
 .course:hover
 {
     transform: scale(1.04);
     cursor: pointer;
+}
+.links-btn
+{
+    border: 12px 24px;
+    color: white;
+    
 }
 .course
 {
@@ -277,4 +301,103 @@ border-radius: 10px;
 .course .duration
 {
     font-size: 12px;
-}
+}.finance-history-table {
+    margin: 2px 20px;
+  }
+  
+  .finance-table {
+    width: 93%;
+    margin-left: 4%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  .finance-table td {
+
+    border-bottom: 1px solid rgb(218, 216, 216);
+    border-right: 1px solid rgb(218, 216, 216);
+  }
+  
+  .finance-table th,
+  .finance-table td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid rgb(218, 216, 216);
+    border-right: 1px solid rgb(218, 216, 216);
+  }
+  
+  .finance-table th {
+    background-color: #1f3373; /* Green background for header */
+    color: white;
+  }
+  
+  .finance-table tbody tr:hover {
+    background-color: #d2dee8; /* Light blue background on hover */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .fin-table {
+    width: 93%;
+    margin-left: 4%;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  
+  .fin-table th,
+  .fin-table td {
+    padding: 11px;
+    text-align: left;
+  }
+  
+  .fin-table th {
+    background-color: #1f3373; /* Green background for header */
+    color: white;
+  }
+  
+  .fin-table tbody tr:hover {
+    background-color: #d2dee8; /* Light blue background on hover */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  .even-row {
+    background-color: #ffffff; /* White background for even rows */
+  }
+  
+  .odd-row {
+    background-color: #f0f0f0; /* Gray background for odd rows */
+  }
+  
+  .icon-cell {
+    padding: 0;
+    text-align: center;
+  }
+  
+  /* Optional: Add some styling to the FontAwesome icons */
+  .icon-cell svg {
+    color: #727596; /* Green color for the icons */
+    font-size: 20px;
+    transition: color 0.3s ease;
+  }
+  
+  .icon-cell:hover svg {
+    color: #777fb3; /* Darker green color on hover */
+  }
+  

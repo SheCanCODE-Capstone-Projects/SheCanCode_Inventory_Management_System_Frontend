@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { Link } from "react-router-dom"
 import homevector from './assets/home-vector.png'
-import './index.css'
+import './styles/index.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 const App= () =>{

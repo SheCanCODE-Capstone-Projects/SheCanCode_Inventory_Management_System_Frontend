@@ -42,7 +42,7 @@ const Register = () =>{
         data-aos="fade-down"
       />
     
-      <Link to='/Navbar'>
+      <Link to='/Login'>
         <button className='home-button mb-6 bg-blue-500 hover:bg-blue-600 text-white rounded-full px-8 py-3 font-bold transition duration-300' data-aos="fade-down">
           Register
         </button>

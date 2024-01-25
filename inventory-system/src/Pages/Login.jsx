@@ -12,8 +12,8 @@ const Login = () =>{
     return (
       <>
       <div className='main-div main-container w-full h-screen flex flex-col md:flex-row items-center justify-center'>
-  <div className='vector basics-1/2 bg-white md:w-4/12 sm-4/12 min-h-40 shadow-lg shadow-black-500 hidden md:block'>
-    <img src={vector} className='basics-1/2 size-min mt-36 md:mt-36 mx-auto md:ml-0 md:mr-auto' alt='home vector' data-aos="fade-right" />
+  <div className='vector basics-1/2 bg-white md:w-4/12 sm-4/12 min-h-40  shadow-lg shadow-black-500 hidden md:block'>
+    <img src={vector} className='basics-1/2 size-min  md:mt-24 mx-auto md:ml-0 md:mr-auto ' alt='home vector' data-aos="fade-right" />
   </div>
   <div className='login-form  basics-1/2 w-full md:w-5/12 min-h-40 bg-gradient-to-r from-blue-900 to-blue-999 p-8 md:p-12 shadow-lg'>
     <h1 className='text-white mt-14 font-bold text-3xl md:text-4xl mb-4 md:mb-8 delay-[400ms] duration-[600ms]' data-aos="fade-down">

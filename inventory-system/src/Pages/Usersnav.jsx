@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import './dashbaord.css'
+import '../styles/dashbaord.css'
 import 'aos/dist/aos.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faUser } from '@fortawesome/free-solid-svg-icons'
@@ -30,15 +30,11 @@ const courses =[
     title:'',
     duration:'',
     },
-    {
-    icon:<FontAwesomeIcon icon={faUser}/>,
-    title:'',
-    duration:'',
-    },
+   
 ]
 const  Usersnav =() =>{
   return (
-    <div className='profile'>
+    <div className='profile shadow-md'>
       <div className='hello'>
         <div className='user-detail delay-[300ms] duration-[600ms]' data-aos="fade-up">
             <h3 className='username'>Available Users</h3>
