@@ -1,0 +1,30 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "Ange-Divine",
+    "Birasa",
+    "Divine_Pages",
+    "Divine_pages",
+    "main",
+    "origin",
+    "provy"
+  ],
+  "parent": {
+    "Ange-Divine": "main",
+    "Birasa": "main",
+    "Divine_Pages": "main",
+    "Divine_pages": "main",
+    "main": null,
+    "origin": "main",
+    "provy": "main"
+  },
+  "order": [
+    "main",
+    "Ange-Divine",
+    "Birasa",
+    "Divine_Pages",
+    "Divine_pages",
+    "origin",
+    "provy"
+  ]
+}
